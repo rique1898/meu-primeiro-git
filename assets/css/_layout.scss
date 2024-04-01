@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+
+    transition: all 1.5s;
+
+    &.dark {
+        background-color: $cor-primaria;
+        color: $cor-secundaria;
+    }
+}
+
+.container {
+
+    max-width: 1400px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(4, 0, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

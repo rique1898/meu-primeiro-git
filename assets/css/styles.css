@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  transition: all 1.5s;
+}
+body.dark {
+  background-color: rgb(40, 223, 255);
+  color: rgb(0, 255, 85);
+}
+
+.container {
+  max-width: 1400px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(4, 0, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul.blocos {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.blocos li {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+ul.blocos li:nth-child(1) {
+  background-color: blue;
+}
+ul.blocos li:nth-child(2) {
+  background-color: red;
+}
+ul.blocos li:nth-child(3) {
+  background-color: green;
+}
+ul.blocos li:nth-child(4) {
+  background-color: chocolate;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=styles.css.map */
